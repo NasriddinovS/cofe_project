@@ -1,0 +1,158 @@
+
+
+.card{  
+  width: 1280px;
+  height: 600px;
+  background-image: url(../img/images.png) ;
+  background-size: cover;
+  margin-top: 50px;
+  border-radius: 10px;
+} 
+
+
+  
+.card_title{
+  width: 500px;
+  padding-top: 100px;
+  margin: 0px 85px;
+  color: #FEFCF7;
+  font-weight: 900;
+font-size: 72px;
+line-height: 72px;
+
+}
+
+.card_text{
+  width: 445px;
+  padding-top: 35px;
+  font-weight: 400;
+  margin: 0px 85px;
+  margin-bottom: 50px ;
+font-size: 16px;
+line-height: 26px;
+  color: #FEFCF7;
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+.card_btn{
+  width: 217px;
+  height: 56px;
+font-size: 18px;
+  margin: 0 85px;
+  background: #0E8784;
+border-radius: 9px;
+
+}
+
+.card_btn:hover{
+  color: #990b46;
+  background: #74ebe9;
+  cursor: pointer;
+}
+
+.card_btn:active{
+  color: #0cd45c;
+  background: #bd4e92;
+  cursor: pointer;
+}
+
+// @media only screen and (max-width :1280px){
+//   .card{
+//     margin: 0 auto;
+//     width: auto ;
+//     height: 500px;
+//     margin-top: 20px;
+//     background-image: url(../img/table-img.zip) ;
+//     background-size: cover;
+
+
+//   }
+
+//   .card_title{ 
+//     width: 329px;
+//     height: 97px;
+//     margin: 0 auto;
+//     font-family: 'Fraunces 9pt';
+// font-style: normal;
+// font-weight: 900;
+// font-size: 48px;
+// line-height: 40px;
+// text-align: center;
+// color: #FEFCF7;
+//   }
+
+//   .card_text{
+//     width: 257px;
+//     font-family: 'Barlow';
+// font-style: normal;
+// font-weight: 300;
+// font-size: 12px;
+// line-height: 25px;
+// text-align: center;
+// color: #FEFCF7;
+// margin: 0 auto;
+
+//   }
+  
+
+//   .card_btn{
+//     width: 217px;
+//   height: 56px;
+// font-size: 18px;
+//  margin: 0% auto;
+//     text-align: center;
+// }
+// }
+
+
+
+
+@media screen and (max-width :668px){
+  .card{
+
+   margin: 0 auto;
+    width: auto;
+    height: 500px;
+    background-image: url(../img/mobile-img.jpg) ;
+    background-size: cover;
+
+
+
+  }
+
+  .card_title{
+    width: 297px;
+    margin: 0% auto;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 40px;
+text-align: center;
+color: #FEFCF7;
+  }
+
+  .card_text{
+    width: 297px;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: #FEFCF7;
+margin: 0% auto;
+opacity: 0.8; 
+  }
+  
+
+  .card_btn{
+    width: 190px;
+    height: 46px;
+    margin-top: 55px;
+    text-align: center;
+}
+}
+
+

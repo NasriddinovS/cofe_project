@@ -1,0 +1,106 @@
+
+
+// .header-logo{
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding-top: 45px;
+ 
+ 
+// }
+
+
+
+
+// .header-list{
+//   display: flex;
+//   align-items: center;
+//  gap: 20px;
+//  list-style: none;
+// a{
+//   text-decoration: none;
+//   color: gray;
+// }
+ 
+// }
+
+//  .header-item a:hover{
+//   cursor: pointer;
+//   color: rgb(163, 10, 12);
+//  }
+
+.header-logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.header-logo ul{
+  float: right;
+
+}
+
+.header-logo ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+
+}
+
+.header-logo ul li a{
+  text-decoration: none;
+  position: relative;
+  color: black;
+  font-size: 18px;
+
+  
+  &:hover{
+    color: gray;
+  }
+  
+  &:active{
+    color: rgb(183, 31, 31);
+  }
+}
+
+.header-logo ul li a:before{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 100%;
+  background-color: rgb(191, 32, 34);
+  transform: scaleX(0);
+  transition: transform .6s linear;
+}
+
+.header-logo ul li a:hover:before{
+
+  transform: scaleX(1);
+  transform-origin: left;
+
+}
+
+header{
+
+  label #btn,
+label #cancel{
+color: black;
+font-size: 20px;
+float: right;
+line-height: 80px;
+}
+
+}
+
+
+@media screen and (max-width :668px){
+  
+  .header-logo{
+    ul{
+      display: none;
+    }
+  }
+}
